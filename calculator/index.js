@@ -4,7 +4,7 @@ let args = process.argv
 args = args.slice(2)
 args[1] = +args[1]
 args[2] = +args[2]
-
+console.log("process")
 console.log(
     calculator()
 )
